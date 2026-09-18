@@ -1,0 +1,54 @@
+{
+  "id": "driving_licence_services",
+  "slug": "driving-licence-renewal-duplicate",
+  "title": "Driving Licence (DL) — Renewal & Duplicate Licence Issuance",
+  "authority": "Ministry of Road Transport and Highways (MoRTH) / State Transport Departments (Sarathi Parivahan)",
+  "category": "Transport & Licensing",
+  "official_portal_name": "Sarathi Parivahan Portal (MoRTH)",
+  "official_url": "https://sarathi.parivahan.gov.in/",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "Central Motor Vehicles Rules & Sarathi Parivahan National Portal",
+  "overview": "Official procedures to renew an expired Driving Licence (DL) or apply for a duplicate Driving Licence in the event of loss, theft, mutilation, or physical damage.",
+  "eligibility": "Renewal: Holder of an Indian Driving Licence that has expired or is nearing expiry (can be renewed up to 1 year prior to expiry and up to 1 year post expiry under standard rules). Duplicate: Any valid licence holder who lost their physical smart card or whose card is illegible.",
+  "fees": {
+    "amount": "DL Renewal Base Fee: ₹200.00 | Duplicate DL: ₹200.00 (plus ₹200 smart card fee where applicable)",
+    "breakdown": "Standard renewal fee is ₹200. If applying after the 1-year grace period, an additional late fee of ₹300 plus ₹1,000 for each year or part thereof of delay applies. State user convenience fees (₹50-₹100) may vary by jurisdiction.",
+    "payment_mode": "Online payment via Government Treasury Payment Gateway on Sarathi Parivahan portal."
+  },
+  "timeline": {
+    "dispatch": "Aadhaar-authenticated contactless renewal is processed within 7 to 14 working days by the jurisdictional RTO.",
+    "delivery": "Digital DL is immediately reflected on mParivahan and DigiLocker upon approval; physical smart card is dispatched via Speed Post."
+  },
+  "required_documents": [
+    "Original Expired / Damaged Driving Licence (or copy if lost)",
+    "For Lost DL: Form LLD (Intimation of loss or destruction) and Police Lost Article Report / NCR / FIR copy",
+    "For Renewal: Form 2 (Application form auto-generated online)",
+    "Medical Certificate (Form 1A): Mandatory for non-transport commercial licence holders OR applicants over 40 years of age, signed by a registered medical practitioner (digitally uploaded via portal)",
+    "Proof of Address (Aadhaar, Passport, or Voter ID) and Proof of Age"
+  ],
+  "steps": [
+    "Visit the official Parivahan Sarathi portal: https://sarathi.parivahan.gov.in/",
+    "Select the State in which your licence was issued or where you currently reside.",
+    "Click on 'Apply for DL Renewal' or 'Services on DL (Renewal / Duplicate / Address Change)'.",
+    "Enter your Driving Licence Number and Date of Birth, then click 'Get DL Details'.",
+    "Confirm that the licensee details displayed match your profile.",
+    "Select the required service: 'Renewal of DL' or 'Issue of Duplicate DL'.",
+    "If opting for Aadhaar-based e-KYC (contactless service in participating states), authenticate via Aadhaar OTP to avoid in-person RTO visits.",
+    "Upload required documents (Form 1A medical cert if over 40 years, Form LLD/FIR if lost).",
+    "Pay the prescribed government fee online through the payment gateway.",
+    "Download the application acknowledgment and track approval status on the portal."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Driving on public roads with an expired licence beyond the grace period is a punishable violation under the Motor Vehicles Act carrying a ₹5,000 fine.",
+    "Beware of third-party middlemen charging ₹2,000-₹5,000; the official government fee is only ₹200-₹400 on the Sarathi portal.",
+    "Ensure the DL number format strictly matches your physical card (e.g., TN-01-20150001234 or DL0420150001234)."
+  ],
+  "checklist": [
+    "Locate your Driving Licence Number and confirm Date of Birth",
+    "If over 40 years old, obtain Form 1A Medical Certificate from a registered doctor",
+    "If DL was lost, file an online Police Lost Report/NCR to obtain reference number",
+    "Have ₹200-₹400 online payment method ready",
+    "Keep Aadhaar linked mobile ready for contactless e-KYC authentication"
+  ]
+}

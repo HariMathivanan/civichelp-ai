@@ -1,0 +1,48 @@
+{
+  "id": "aadhaar_lost_pvc",
+  "slug": "aadhaar-lost-pvc-reprint",
+  "title": "Aadhaar Card — Lost Card PVC Reprint & Delivery",
+  "authority": "Unique Identification Authority of India (UIDAI)",
+  "category": "Identity & Citizenship",
+  "official_portal_name": "myAadhaar Portal (UIDAI)",
+  "official_url": "https://myaadhaar.uidai.gov.in/gen-pvc",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "UIDAI Official Notification & myAadhaar Portal (Fee revision effective Jan 1, 2026)",
+  "overview": "Official procedure for citizens who lost, damaged, or need a durable physical Aadhaar card. UIDAI issues a pocket-sized, weather-proof PVC card equipped with a digitally signed secure QR code, hologram, and ghost image delivered via Speed Post.",
+  "eligibility": "Any resident holding a valid 12-digit Aadhaar Number, 16-digit Virtual ID (VID), or 28-digit Enrolment ID (EID). An existing mobile link is NOT mandatory to place the order; an alternate mobile number can be entered to receive the SMS OTP.",
+  "fees": {
+    "amount": "₹75.00 (revised effective January 1, 2026)",
+    "breakdown": "Includes secure PVC card printing, all applicable taxes (GST), and Speed Post delivery charges across India.",
+    "payment_mode": "Online payment via UPI, Debit/Credit Card, or Net Banking on the official myAadhaar gateway."
+  },
+  "timeline": {
+    "dispatch": "UIDAI prints and hands over card to Department of Posts (India Post) within 5 working days.",
+    "delivery": "Delivered to registered residential address via Speed Post (typically 7-15 working days total)."
+  },
+  "required_documents": [
+    "12-digit Aadhaar Number OR 16-digit VID OR 28-digit Enrolment ID (EID)",
+    "Any active mobile phone capable of receiving an SMS OTP (linked mobile is not required)"
+  ],
+  "steps": [
+    "Navigate to the official UIDAI portal: https://myaadhaar.uidai.gov.in/gen-pvc",
+    "Select 'Order Aadhaar PVC Card' from the dashboard services.",
+    "Enter your 12-digit Aadhaar Number (or 28-digit EID) and enter the security Captcha code.",
+    "If your registered mobile number is lost or inactive, check 'My mobile number is not registered' and input any currently active mobile number.",
+    "Click 'Send OTP' and input the 6-digit one-time password received on your phone.",
+    "Review the terms and conditions and click 'Submit'.",
+    "Proceed to the payment gateway and complete the payment of ₹75 using UPI, debit card, credit card, or net banking.",
+    "Download and store the payment acknowledgement receipt containing the 28-digit Service Request Number (SRN) for tracking."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Do NOT use unauthorized open-market vendors or plastic card printing shops; UIDAI has clarified that only official PVC cards with holographic security features issued by UIDAI are secure and valid.",
+    "Never share Aadhaar OTPs or personal credentials with third parties or unverified agents.",
+    "The physical PVC card will strictly be delivered to the address registered on the Aadhaar database; it cannot be redirected to a temporary address during order placement."
+  ],
+  "checklist": [
+    "Locate your 12-digit Aadhaar number or 28-digit Enrolment Slip (EID)",
+    "Keep an active mobile phone handy to receive OTP",
+    "Ensure ₹75 payment method is ready (UPI app or Debit Card)",
+    "Save the Service Request Number (SRN) receipt for India Post tracking"
+  ]
+}

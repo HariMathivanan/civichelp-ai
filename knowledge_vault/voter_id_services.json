@@ -1,0 +1,50 @@
+{
+  "id": "voter_id_services",
+  "slug": "voter-id-registration-correction-epic",
+  "title": "Voter ID Card (EPIC) — New Voter Registration, Correction & e-EPIC Download",
+  "authority": "Election Commission of India (ECI)",
+  "category": "Electoral & Democratic Rights",
+  "official_portal_name": "ECI Voters' Service Portal",
+  "official_url": "https://voters.eci.gov.in/",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "Election Commission of India Electoral Registration Rules & Voters Portal",
+  "overview": "Official procedures for Indian citizens to enroll as new voters (Form 6), update/correct personal details or change residence (Form 8), and download digital e-EPIC cards free of cost.",
+  "eligibility": "Every Indian citizen who has attained 18 years of age on the qualifying dates (January 1, April 1, July 1, October 1 of the year) and is ordinarily resident in the assembly constituency. Registered voters with mobile numbers linked in the electoral roll can download e-EPIC.",
+  "fees": {
+    "amount": "₹0.00 (Free of Cost)",
+    "breakdown": "All voter registration (Form 6), demographic correction/address shifting (Form 8), and high-resolution digital e-EPIC downloads are 100% free of charge provided by the Election Commission of India.",
+    "payment_mode": "No payment required. Free public service."
+  },
+  "timeline": {
+    "dispatch": "Applications are verified by the Booth Level Officer (BLO) and approved by the Electoral Registration Officer (ERO) typically within 15 to 30 days.",
+    "delivery": "Digital e-EPIC PDF is downloadable immediately upon approval; physical personalized EPIC card is delivered free via India Post Speed Post."
+  },
+  "required_documents": [
+    "Recent passport-size color photograph (white background, size < 2MB)",
+    "Proof of Age / Date of Birth: Birth Certificate, Aadhaar Card, PAN Card, Driving Licence, or 10th Standard Passing Certificate",
+    "Proof of Ordinary Residence: Water / Electricity / Gas connection bill (at least 1 year at current address), Aadhaar Card, Current Bank Passbook, Indian Passport, or Registered Rent Deed"
+  ],
+  "steps": [
+    "Navigate to the official Election Commission portal: https://voters.eci.gov.in/",
+    "Create an account or login using your registered mobile number and OTP.",
+    "For New Voter Registration: Click on 'Fill Form 6 (Register as a New Elector/Voter)'.",
+    "Select your State, District, and Parliamentary / Assembly Constituency.",
+    "Fill in personal details: First name, Surname, Father's/Mother's/Spouse's name, and contact details.",
+    "Upload the photograph, proof of age document, and proof of address document.",
+    "For Shifting of Residence / Correction / Replacement: Click on 'Fill Form 8' and select whether shifting within constituency, between constituencies, or correcting details.",
+    "Submit the application and note down the unique Reference Number to track status on the portal.",
+    "To Download e-EPIC: Click 'e-EPIC Download', enter your EPIC Number or Form Reference Number, authenticate via mobile OTP, and download the signed PDF voter card."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Registering in more than one constituency or having multiple Voter IDs is an offense under Section 31 of the Representation of the People Act, 1950 (punishable with imprisonment up to 1 year or fine).",
+    "Beware of unauthorized portals or charging agencies claiming to 'register voters' for money; the official process on voters.eci.gov.in is completely free.",
+    "Do not submit fabricated tenancy documents; Booth Level Officers (BLOs) may conduct physical spot verification."
+  ],
+  "checklist": [
+    "Ensure you are 18 years of age or older",
+    "Keep a recent passport-size photograph ready in JPEG format",
+    "Prepare Proof of Age (Aadhaar or Birth Certificate) and Proof of Residence",
+    "Save the Application Reference Number upon submission for tracking"
+  ]
+}

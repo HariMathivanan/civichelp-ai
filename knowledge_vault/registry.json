@@ -1,0 +1,88 @@
+{
+  "vault_name": "CivicHelp AI Authoritative Citizen Knowledge Vault",
+  "version": "1.0.0",
+  "last_updated": "2026-09-18",
+  "jurisdiction": "India (Union & State Governments)",
+  "disclaimer": "Independent citizen assistance catalog. Verified against official portals. Not an official government website.",
+  "services_count": 6,
+  "sources": [
+    {
+      "id": "aadhaar_lost_pvc",
+      "slug": "aadhaar-lost-pvc-reprint",
+      "title": "Aadhaar Card — Lost Card PVC Reprint & Delivery",
+      "authority": "Unique Identification Authority of India (UIDAI)",
+      "category": "Identity & Citizenship",
+      "official_url": "https://myaadhaar.uidai.gov.in/gen-pvc",
+      "file_name": "aadhaar_lost_pvc.json",
+      "s3_key": "schemes/aadhaar_lost_pvc.json",
+      "fee_summary": "₹75.00 (Speed Post delivery included)",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    },
+    {
+      "id": "aadhaar_address_mobile_update",
+      "slug": "aadhaar-address-mobile-update",
+      "title": "Aadhaar Card — Demographic & Mobile Number Update",
+      "authority": "Unique Identification Authority of India (UIDAI)",
+      "category": "Identity & Citizenship",
+      "official_url": "https://myaadhaar.uidai.gov.in/",
+      "file_name": "aadhaar_address_mobile_update.json",
+      "s3_key": "schemes/aadhaar_address_mobile_update.json",
+      "fee_summary": "₹75.00 (Demographic) / ₹125.00 (Biometric)",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    },
+    {
+      "id": "pan_card_services",
+      "slug": "pan-card-services-reprint-instant",
+      "title": "Permanent Account Number (PAN) — Instant e-PAN & Physical Reprint",
+      "authority": "Income Tax Department / Protean (NSDL) / UTIITSL",
+      "category": "Tax & Financial Identity",
+      "official_url": "https://www.incometax.gov.in/iec/fposervices/#/pre-login/instant-e-pan",
+      "file_name": "pan_card_services.json",
+      "s3_key": "schemes/pan_card_services.json",
+      "fee_summary": "Instant e-PAN: Free / Reprint: ₹50.00",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    },
+    {
+      "id": "passport_services",
+      "slug": "passport-fresh-tatkaal-application",
+      "title": "Indian Passport — Fresh Application (Normal vs Tatkaal)",
+      "authority": "Ministry of External Affairs (CPV Division)",
+      "category": "Travel & Citizenship",
+      "official_url": "https://www.passportindia.gov.in/",
+      "file_name": "passport_services.json",
+      "s3_key": "schemes/passport_services.json",
+      "fee_summary": "Normal: ₹2,500.00 / Tatkaal: ₹5,000.00",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    },
+    {
+      "id": "driving_licence_services",
+      "slug": "driving-licence-renewal-duplicate",
+      "title": "Driving Licence (DL) — Renewal & Duplicate Licence Issuance",
+      "authority": "Ministry of Road Transport and Highways (MoRTH) / Sarathi",
+      "category": "Transport & Licensing",
+      "official_url": "https://sarathi.parivahan.gov.in/",
+      "file_name": "driving_licence_services.json",
+      "s3_key": "schemes/driving_licence_services.json",
+      "fee_summary": "Renewal: ₹200.00 / Duplicate: ₹200.00",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    },
+    {
+      "id": "voter_id_services",
+      "slug": "voter-id-registration-correction-epic",
+      "title": "Voter ID Card (EPIC) — New Voter Registration, Correction & e-EPIC Download",
+      "authority": "Election Commission of India (ECI)",
+      "category": "Electoral & Democratic Rights",
+      "official_url": "https://voters.eci.gov.in/",
+      "file_name": "voter_id_services.json",
+      "s3_key": "schemes/voter_id_services.json",
+      "fee_summary": "Free of Cost (₹0.00)",
+      "verification_status": "VERIFIED_OFFICIAL",
+      "last_verified_at": "2026-09-18"
+    }
+  ]
+}

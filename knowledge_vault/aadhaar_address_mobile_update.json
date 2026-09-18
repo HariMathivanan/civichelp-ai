@@ -1,0 +1,49 @@
+{
+  "id": "aadhaar_address_mobile_update",
+  "slug": "aadhaar-address-mobile-update",
+  "title": "Aadhaar Card — Demographic & Mobile Number Update",
+  "authority": "Unique Identification Authority of India (UIDAI)",
+  "category": "Identity & Citizenship",
+  "official_portal_name": "myAadhaar Portal & Aadhaar Seva Kendra",
+  "official_url": "https://myaadhaar.uidai.gov.in/",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "UIDAI Circular on Revision of Tariff and Official FAQs",
+  "overview": "Official procedures to update demographic details (address, name, DOB, gender) and mobile number in Aadhaar records. Address can be updated online with valid proof; mobile numbers strictly require biometric authentication at an authorized centre.",
+  "eligibility": "All Aadhaar holders. Address updates online require an active registered mobile number to receive OTP. If no mobile number is linked, the citizen must visit an Aadhaar Enrolment Centre / Aadhaar Seva Kendra.",
+  "fees": {
+    "amount": "₹75.00 for Demographic Update | ₹125.00 for Biometric Update (Free for mandatory child updates at age 5 and 15)",
+    "breakdown": "₹75 for updating address, name, DOB, or mobile number. If demographic update is combined with biometric update, only the single ₹125 fee applies.",
+    "payment_mode": "Online gateway on myAadhaar for online address updates; Cash/UPI/Card at authorized Aadhaar Seva Kendras."
+  },
+  "timeline": {
+    "dispatch": "Update requests are typically processed within 5 to 15 working days following backend verification against official databases.",
+    "delivery": "Digital e-Aadhaar is available for download immediately upon approval; updated physical PVC can be ordered separately if needed."
+  },
+  "required_documents": [
+    "For Online Address Update: Valid Proof of Address (PoA) such as Passport, Bank Passbook/Statement, Electricity Bill (not older than 3 months), Voter ID, or Registered Rent Agreement.",
+    "For Mobile Number Update: No document required; only physical presence for in-person biometric authentication at Aadhaar Seva Kendra."
+  ],
+  "steps": [
+    "To Update Address Online: Visit https://myaadhaar.uidai.gov.in and login using your 12-digit Aadhaar number and OTP.",
+    "Select 'Address Update' -> 'Update Aadhaar Online'.",
+    "Enter the correct new address details matching your supporting document.",
+    "Upload a clear scanned copy or photo of the valid Proof of Address (PoA) document.",
+    "Pay the non-refundable demographic update fee of ₹75.",
+    "Save the generated Service Request Number (SRN) or Update Request Number (URN) to track status.",
+    "To Update Mobile Number: Locate nearest authorized centre via https://appointments.uidai.gov.in/easearch.aspx",
+    "Book an appointment online or walk in to the Aadhaar Seva Kendra.",
+    "Submit your request and complete biometric verification (fingerprint/iris scan). No paper documents are required for mobile update."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Mobile number updates CANNOT be done completely online — beware of fraudulent websites offering online phone number linking.",
+    "Ensure the scanned address proof is legitimate and clearly legible, otherwise UIDAI verifiers will reject the application without fee refund.",
+    "Do not pay more than the standard ₹75 (demographic) or ₹125 (biometric) fee at any Aadhaar centre; ask for the official UIDAI printed receipt."
+  ],
+  "checklist": [
+    "Check whether your current mobile number is active to receive online OTP",
+    "Gather a valid Proof of Address (PoA) document in PDF or JPEG format",
+    "Have ₹75 payment method ready",
+    "If updating mobile number, locate your nearest Aadhaar Seva Kendra on appointments.uidai.gov.in"
+  ]
+}

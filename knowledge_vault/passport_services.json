@@ -1,0 +1,51 @@
+{
+  "id": "passport_services",
+  "slug": "passport-fresh-tatkaal-application",
+  "title": "Indian Passport — Fresh Application (Normal vs Tatkaal)",
+  "authority": "Ministry of External Affairs (CPV Division) / Passport Seva",
+  "category": "Travel & Citizenship",
+  "official_portal_name": "Passport Seva Portal (PSP)",
+  "official_url": "https://www.passportindia.gov.in/",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "Ministry of External Affairs Revised Passport Fee Schedule (Effective July 1, 2026)",
+  "overview": "Official process to apply for a fresh Ordinary Indian Passport under Normal or Tatkaal (expedited) scheme, including document requirements, fee structure, and Passport Seva Kendra (PSK) appointment procedures.",
+  "eligibility": "Indian citizens above 18 years of age applying for a fresh passport. For Tatkaal: Applicant must not belong to restricted categories (such as major name change, citizenship by registration/naturalization, or adverse police records) and must provide mandatory verified identity proofs.",
+  "fees": {
+    "amount": "Normal (36 pages): ₹2,500.00 | Tatkaal (36 pages): ₹5,000.00 (60-page booklet: ₹3,500 Normal / ₹6,000 Tatkaal)",
+    "breakdown": "Fees revised effective July 1, 2026. Tatkaal includes standard processing fee plus ₹2,500 additional Tatkaal surcharge payable entirely during online appointment booking.",
+    "payment_mode": "Mandatory online payment through SBI e-Pay (Internet Banking, UPI, Credit/Debit Cards) on the official Passport Seva portal."
+  },
+  "timeline": {
+    "dispatch": "Normal Scheme: Dispatched within 15 to 30 working days subject to clear police verification report. Tatkaal Scheme: Dispatched within 1 to 3 working days post PSK appointment (police verification conducted post-issuance).",
+    "delivery": "Delivered strictly in-person to applicant at registered residential address via India Post Speed Post."
+  },
+  "required_documents": [
+    "Proof of Date of Birth (DoB): Birth Certificate issued by municipal authority OR Aadhaar Card / E-Aadhaar OR Matriculation / 10th Standard Marksheet / School Leaving Certificate.",
+    "Proof of Present Address: Aadhaar Card OR Active Bank Passbook with applicant's photo (scheduled public/private bank) OR Electricity/Water bill OR Voter ID (EPIC).",
+    "Non-ECR Proof (if applicable): 10th Standard passing certificate / Degree / Higher educational certificate.",
+    "For Tatkaal: Standard documents plus Annexure E (Self-Declaration for Tatkaal) and minimum 3 approved institutional photo identity proofs (e.g., Aadhaar, PAN, Voter ID, Service ID)."
+  ],
+  "steps": [
+    "Register on the official portal: https://www.passportindia.gov.in/ with your name and email ID.",
+    "Login and click on 'Apply for Fresh Passport / Re-issue of Passport'.",
+    "Select application type ('Fresh Passport'), scheme type ('Normal' or 'Tatkaal'), and booklet size ('36 Pages' or '60 Pages').",
+    "Fill in the applicant details, family details, present address, emergency contact, and previous passport details carefully.",
+    "Review the submitted form to ensure zero spelling errors matching your official identity documents.",
+    "Click 'Pay and Schedule Appointment' at your nearest Passport Seva Kendra (PSK) or Post Office Passport Seva Kendra (POPSK).",
+    "Complete online payment of the fee (₹2,500 for Normal 36p or ₹5,000 for Tatkaal 36p).",
+    "Print or save the appointment confirmation receipt with the ARN (Application Reference Number).",
+    "Visit the designated PSK/POPSK on the appointment date with original physical documents plus self-attested photocopies for biometric enrolment and document scrutiny."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Beware of fake lookalike websites (such as passport-seva.org, passportgov.in); the ONLY authentic portal is www.passportindia.gov.in ending in .gov.in.",
+    "Touting or using unauthorized travel agents for appointment booking is strictly discouraged by MEA; direct citizen booking is straightforward and transparent.",
+    "Suppression of existing criminal cases, dual nationality, or previous passport details is an offense under the Passports Act, 1967."
+  ],
+  "checklist": [
+    "Verify spelling of your full name across all identity documents",
+    "Prepare original Proof of Address and Proof of Date of Birth + 2 sets of self-attested photocopies",
+    "Have online payment method ready (₹2,500 for Normal or ₹5,000 for Tatkaal)",
+    "Download and print Appointment Confirmation Receipt after scheduling"
+  ]
+}

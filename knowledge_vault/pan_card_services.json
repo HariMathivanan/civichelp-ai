@@ -1,0 +1,50 @@
+{
+  "id": "pan_card_services",
+  "slug": "pan-card-services-reprint-instant",
+  "title": "Permanent Account Number (PAN) — Instant e-PAN & Physical Reprint",
+  "authority": "Income Tax Department / Protean (NSDL) / UTIITSL",
+  "category": "Tax & Financial Identity",
+  "official_portal_name": "Income Tax e-Filing & Protean (NSDL) TIN Portal",
+  "official_url": "https://www.incometax.gov.in/iec/fposervices/#/pre-login/instant-e-pan",
+  "last_verified_at": "2026-09-18",
+  "verification_status": "VERIFIED_OFFICIAL",
+  "verification_source": "Income Tax Department e-Filing Rules & Protean/UTIITSL Fee Schedules",
+  "overview": "Official procedures for obtaining a brand new Instant e-PAN digitally, or requesting a physical reprint of an existing PAN card in case of loss or damage.",
+  "eligibility": "Instant e-PAN: Individual Indian residents who have never been allotted a PAN, possess an active Aadhaar card with a linked mobile number, and are not minors. Physical Reprint: Any existing PAN card holder whose PAN details are already linked with Aadhaar records.",
+  "fees": {
+    "amount": "Instant e-PAN: ₹0.00 (Free) | Physical Card Reprint: ₹50.00 (Dispatch within India)",
+    "breakdown": "Instant e-PAN is 100% paperless and free. Physical card reprint through Protean (NSDL) or UTIITSL costs ₹50.00 inclusive of GST and speed post delivery in India (₹959.00 for international delivery).",
+    "payment_mode": "Online payment via UPI, Debit Card, Credit Card, or Net Banking on Protean/UTIITSL portal."
+  },
+  "timeline": {
+    "dispatch": "Instant e-PAN PDF is generated in real-time (usually within 10 to 30 minutes).",
+    "delivery": "Physical reprint card is dispatched via India Post within 10 to 15 working days."
+  },
+  "required_documents": [
+    "For Instant e-PAN: 12-digit Aadhaar Number and Aadhaar-linked mobile phone (No physical documents required).",
+    "For Physical Reprint: Existing 10-character PAN number, 12-digit Aadhaar Number, and Date of Birth."
+  ],
+  "steps": [
+    "To Get Instant New e-PAN (Free): Visit https://www.incometax.gov.in/iec/fposervices/#/pre-login/instant-e-pan",
+    "Click on 'Get New e-PAN'.",
+    "Enter your 12-digit Aadhaar Number and agree to the validation terms.",
+    "Enter the OTP received on your Aadhaar-linked mobile number.",
+    "Validate Aadhaar demographic details (name, DOB, gender, photo) displayed on the screen.",
+    "Submit the request; you will receive an acknowledgement number to check status and download the signed PDF e-PAN.",
+    "To Order Physical Reprint of Lost PAN: Visit https://www.onlineservices.nsdl.com/paam/ReprintEPan.html (Protean) or https://www.pan.utiitsl.com/PAN_ONLINE/reprintpancard",
+    "Enter your 10-character PAN, Aadhaar number, and Date of Birth (MM/YYYY).",
+    "Authenticate using OTP sent to your registered mobile/email.",
+    "Pay the ₹50 official fee online and download the payment receipt."
+  ],
+  "warnings_and_fraud_prevention": [
+    "Obtaining or possessing more than one PAN card is illegal under Section 272B of the Income Tax Act and attracts a penalty of ₹10,000.",
+    "Instant e-PAN only works for fresh applicants who never had a PAN allotted before; existing PAN holders who lost their card must use the Reprint facility.",
+    "Ensure your PAN and Aadhaar are linked to prevent your PAN from becoming inoperative."
+  ],
+  "checklist": [
+    "Confirm whether you need a new PAN (Instant e-PAN) or a replacement (Reprint)",
+    "Have your 12-digit Aadhaar number and registered mobile phone active for OTP",
+    "If ordering physical reprint, keep your 10-character PAN number ready",
+    "Keep ₹50 payment method ready for physical dispatch"
+  ]
+}
