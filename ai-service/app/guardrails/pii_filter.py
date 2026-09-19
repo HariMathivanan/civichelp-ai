@@ -4,7 +4,7 @@ from typing import Tuple
 # Regex patterns for sensitive Indian PII
 AADHAAR_PATTERN = re.compile(r'\b\d{4}[ -]?\d{4}[ -]?\d{4}\b')
 PAN_PATTERN = re.compile(r'\b[A-Z]{5}[0-9]{4}[A-Z]{1}\b', re.IGNORECASE)
-OTP_PATTERN = re.compile(r'\b(otp|one time password|cvv|password)[\s:]*([0-9]{4,8}|[a-zA-Z0-9!@#$%^&*]{6,20})\b', re.IGNORECASE)
+OTP_PATTERN = re.compile(r'\b(otp|one\s+time\s+password|cvv|password|secret|pin)(?:\s+(?:code|number|pin|is|was|value))*[\s:=]+([0-9]{4,8}|[a-zA-Z0-9!@#$%^&*]{6,20})\b', re.IGNORECASE)
 
 class PIISanitizer:
     """Detects and redacts sensitive personal identification numbers to uphold citizen privacy."""
