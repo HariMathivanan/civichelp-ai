@@ -1,16 +1,17 @@
-# CivicHelp AI — AWS S3 Knowledge Vault Specification
+# CivicHelp AI — AWS SDK v3 & LocalStack S3 Architecture
 
-This document details the exact Amazon S3 resource configuration, pricing/cost breakdown, CLI commands, and teardown steps.
+CivicHelp uses the AWS SDK for JavaScript v3 (`@aws-sdk/client-s3`) to interact with an S3-compatible LocalStack environment locally. This allows the same AWS API integration to be developed and demonstrated without connecting to AWS cloud.
 
 ---
 
-## 1. Resource Specification
+## 1. Architecture & Design
 
-* **Resource**: Amazon S3 Bucket (Standard Storage Class)
-* **Bucket Name Pattern**: `civichelp-knowledge-vault-<your-account-id-or-initials>`
-* **Region**: `ap-south-1` (Asia Pacific - Mumbai) or `us-east-1`
-* **Purpose**: Immutable, cloud-hosted document repository for authoritative citizen service JSON factsheets.
-* **Objects to Store**:
+* **SDK**: AWS SDK for JavaScript v3 (`@aws-sdk/client-s3`)
+* **Target Environment**: S3-compatible LocalStack environment running locally / AWS S3
+* **Bucket Name**: `civichelp-knowledge-vault-prod`
+* **Region**: `ap-south-1`
+* **Purpose**: Immutable, verified document repository for authoritative citizen service JSON factsheets.
+* **Objects Managed**:
   * `schemes/aadhaar_lost_pvc.json`
   * `schemes/aadhaar_address_mobile_update.json`
   * `schemes/pan_card_services.json`

@@ -1,0 +1,30 @@
+{
+  "name": "civichelp-backend",
+  "version": "1.0.0",
+  "description": "Express.js API Gateway & AWS S3 Knowledge Vault Manager for CivicHelp AI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "civichelp",
+    "express",
+    "aws-s3",
+    "api-gateway",
+    "rag"
+  ],
+  "author": "Hari Mathivanan",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.726.1",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "civichelp-ai",
+  "version": "1.0.0",
+  "description": "CivicHelp AI — Simplifying Indian government services through grounded RAG",
+  "private": true,
+  "scripts": {
+    "validate:vault": "node scripts/validate_vault.js",
+    "test:backend": "cd backend && npm test",
+    "test:ai": "python -m pytest ai-service/tests/ -v -s",
+    "test:all": "npm run validate:vault && npm run test:backend && npm run test:ai",
+    "verify:e2e": "node scripts/verify_e2e_gateway.js",
+    "verify:prod": "node scripts/verify_production_local.js",
+    "deploy:s3": "node scripts/deploy_s3_vault.js",
+    "start:backend": "cd backend && node src/server.js",
+    "start:ai": "cd ai-service && python -m uvicorn app.main:app --host 127.0.0.1 --port 8000",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "civichelp",
+    "hackathon",
+    "wemakedevs",
+    "rag",
+    "aws-s3",
+    "fastapi",
+    "express",
+    "react",
+    "vite"
+  ],
+  "author": "Hari Mathivanan",
+  "license": "MIT"
+}
